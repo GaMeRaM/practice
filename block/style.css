@@ -1,0 +1,115 @@
+*{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+	z-index: 150;
+}
+html{
+	margin:0;
+	padding:0 10%;
+}
+body{
+	margin:0;
+	padding: 0;
+	background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0439/6605/naynback9_shop_preview.png);
+}
+h1,h2,h3,h4,h5 {
+	padding: 0;
+	margin: 0;
+}
+ul, li{
+	margin:0;
+	padding:0 8px;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+.shop-image{	
+	max-width:100%;
+	max-height: 100%;
+	display: block;
+    margin: 0 auto;
+}
+.shop-item{
+	word-wrap: break-word;
+	display: inline-block;
+	width:260px;
+	text-align: center;
+	background: #BADF0D;
+	margin: 4px;
+	padding: 4px;
+	vertical-align:top;
+
+}
+.shop-cont{
+	width:100%;
+	height: 80%;
+	vertical-align: center;
+	text-align: center;
+}
+.product-pic{
+	width: 50%;
+	float:left;
+	margin: 4px;
+}
+.left {
+	width: 160px;
+	float:left;
+	padding:1em;
+}
+.right {
+	margin-left:192px;
+	padding:1em;
+	background-color: rgba(234,219,238, 0.4);
+}
+.container {
+	overflow: auto;
+	min-height:100%;
+	position:relative;
+	background-color: rgba(222,173,190, 0.9);
+}
+.main{
+	text-align: center;
+	padding: 1em;
+	background-color:#ADBEEF;
+}
+.footer{
+	padding:1em;
+	background-color: #DBEEFD;
+	clear: both;
+    position: relative;
+    z-index: 10;
+    height: 1em;
+    margin-top: 0em;
+}
+.content{
+	overflow: auto;
+}
+a, a:visited, a:active, a:hover, a:link{
+	color:blue;
+}
+
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 4px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
